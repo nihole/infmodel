@@ -1,7 +1,7 @@
 # infmodel
 
 
-__n[0]__ - some initial essential number of infected. We consider this number as a beginning of pandemic.
+__n[0]__ - some initial essential number of infected people. We consider this number as a beginning of pandemic.
 
 __n[0], n[1], n[2], ... n[k] ...__ - the sequence of the number of infected people in time 
 
