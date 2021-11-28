@@ -5,11 +5,11 @@ __n[0]__ - some initial essential number of infected. We consider this number as
 
 __n[0], n[1], n[2], ... n[k] ...__ - the sequence of the number of infected people in time 
 
-__l = n[1] / n[0]__ - basic reproduction number in the beginning of pandemic. TThis index is decreasing due to the increase in the number of people with immunity and anti-pandemic measures.
+__R0 = n[1] / n[0]__ - basic reproduction number in the beginning of pandemic. TThis index is decreasing due to the increase in the number of people with immunity and anti-pandemic measures.
 
 __N__ - the population, number of all people
 
-__m = l / N__
+__m = R0 / N__
 
 __r[k+1] = n[k+1] / n[k]__
 
@@ -28,4 +28,6 @@ This means that k_stop is an estimation of a number of virus transmissions. The 
 - the higher the probability of mutation
 - the logner pandemic continues and as result the higher probability of critical weakening of immunity 
 
-So this is quite an important number, and if this number is large enough it could lead to an “endless” pandemic.
+So this is quite an important index, and if this number is large enough it could lead to an “endless” pandemic.
+
+This script calculate the dependency of k_stop from the R0
