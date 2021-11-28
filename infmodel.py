@@ -1,6 +1,6 @@
 
 # Population
-N = 10000000000.0
+N = 7500000000.0
 
 # Start of pandemic
 n0 = 100000
