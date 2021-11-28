@@ -1,12 +1,13 @@
 # infmodel
 
-Let's denote the sequence of the number of infected people as 
 
-__n[0], n[1], n[2], ... n[k] ...__
+__n[0]__ - some initial essential number of infected. We consider this number as a beginning of pandemic.
 
-__l = n[1] / n[0]__
+__n[0], n[1], n[2], ... n[k] ...__ - the sequence of the number of infected people in time 
 
-__N__ - the population
+__l = n[1] / n[0]__ - basic reproduction number in the beginning of pandemic. TThis index is decreasing due to the increase in the number of people with immunity and anti-pandemic measures.
+
+__N__ - the population, number of all people
 
 __m = l / N__
 
@@ -18,4 +19,9 @@ __r[k+1] = -m * n[k] + r[k]__
 
 __n[k] = n[k-1] * r[k]__
 
+This recursive dependencies permit us to find the sequence __n[0], n[1], n[2], ... n[k] ...__ 
+
+When for some number k_stop n[k_stop] is less than an arbitrary sufficiently small number (and initial number of infected was higher then this number), we will assume that the pandemic is over. For definiteness, we took a number equal to 100.
+
+This means that k_stop is an estimation of a number of 
 
