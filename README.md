@@ -3,7 +3,7 @@
 
 __n[0]__ - some initial essential number of infected people. We consider this number as a beginning of pandemic.
 
-__n[0], n[1], n[2], ... n[k] ...__ - the sequence of the number of infected people in time 
+__n[0], n[1], n[2], ... n[k] ... __ - the sequence of the number of infected people in time 
 
 __R0 = n[1] / n[0]__ - basic reproduction number in the beginning of pandemic. This index is decreasing due to the increase in the number of people with immunity and anti-pandemic measures.
 
