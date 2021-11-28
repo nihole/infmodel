@@ -23,5 +23,9 @@ This recursive dependencies permit us to find the sequence __n[0], n[1], n[2], .
 
 When for some number k_stop n[k_stop] is less than an arbitrary sufficiently small number (and initial number of infected was higher then this number), we will assume that the pandemic is over. For definiteness, we took a number equal to 100.
 
-This means that k_stop is an estimation of a number of 
+This means that k_stop is an estimation of a number of virus transmissions. The higher this number 
 
+- the higher the probability of mutation
+- the logner pandemic continues and as result the higher probability of critical weakening of immunity 
+
+So this is quite an important number, and if this number is large enough it could lead to an “endless” pandemic.
