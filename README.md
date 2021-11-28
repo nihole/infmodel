@@ -4,7 +4,7 @@ Let's denote the sequence of the number of infected people as n[0], n[1], n[2], 
 
 - <img src="https://latex.codecogs.com/gif.latex?O_t=\text { Onset event at time bin } t " /> 
 
-l = n[1] / n[0]
+$'l = n[1] / n[0]'$
 
 N - the population
 
