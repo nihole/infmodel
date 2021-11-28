@@ -18,7 +18,7 @@ ___r[k+1] = -m * n[k] + r[k]___
 
 ___n[k] = n[k-1] * r[k]___
 
-This recursive dependencies permit us to find the sequence ___n[0], n[1], n[2], ... n[k] ...__+ 
+This recursive dependencies permit us to find the sequence ___n[0], n[1], n[2], ... n[k] ...___
 
 When for some number ___i_stop___, ___n[i_stop]___ is less than an arbitrary sufficiently small number, we assume that the pandemic is over. For definiteness, we took a number equal to 100.
 
