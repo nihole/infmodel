@@ -1,6 +1,5 @@
 # infmodel
 
-
 ___n[0]___ - some initial essential number of infected people. We consider this number as a beginning of pandemic.
 
 ___n[0], n[1], n[2], ... n[k] ...___ - the sequence of the number of infected people in time 
