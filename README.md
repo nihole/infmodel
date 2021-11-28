@@ -6,7 +6,7 @@ ___n[0], n[1], n[2], ... n[k] ...___ - the sequence of the number of infected pe
 
 ___R0 = n[1] / n[0]___ - basic reproduction number in the beginning of pandemic. This index is decreasing due to the increase in the number of people with immunity and anti-pandemic measures.
 
-___N___ - the population, number of all people
+___N = 7500000000___ - the population, approximate number of all people
 
 ___m = R0 / N___
 
