@@ -2,7 +2,7 @@
 
 Let's denote the sequence of the number of infected people as n[0], n[1], n[2], ... n[k] ....
 
-- <img src="https://latex.codecogs.com/gif.latex?O_t=\text { Onset event at time bin } t " /> 
+$`\sqrt{2}`$. 
 
 $'l = n[1] / n[0]'$
 
