@@ -31,4 +31,4 @@ So this is quite an important index, and if this number is large enough it could
 
 This script calculates the dependency of ___i_stop___ from the ___R0___
 
-We see that maximum is when R0 is around 1.0. It means that if we wanted to increase the likelihood of an "eternal" pandemic, we should keep the transmission index around 1.0!
+We see that maximum is when ___R0___ is around 1.0. It means that if we wanted to increase the likelihood of an "eternal" pandemic, we should keep the transmission index around 1.0!
