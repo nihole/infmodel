@@ -1,22 +1,19 @@
 # infmodel
-$\\frac{x}{y}$
 
-Let's denote the sequence of the number of infected people as n[0], n[1], n[2], ... n[k] ....
+Let's denote the sequence of the number of infected people as __n[0], n[1], n[2], ... n[k] ...__
 
-$`\sqrt{2}`$. 
+__l = n[1] / n[0]__
 
-$'l = n[1] / n[0]'$
+__N__ - the population
 
-N - the population
+__m = l / N__
 
-m = l / N
-
-r[k+1] = n[k+1]/n[k]
+__r[k+1] = n[k+1] / n[k]__
 
 Then we have the following recursive dependencies: 
 
-r[k+1] = -m * n[k] + r[k]
+__r[k+1] = -m * n[k] + r[k]
 
-n[k] = n[k-1] * r[k]
+__n[k] = n[k-1] * r[k]
 
 
