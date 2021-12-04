@@ -2,9 +2,9 @@
 
 ## How to use 
 
-__python3 pduration.py__ returns duration of pandemic depending on __R0__
+___python3 pduration.py___ returns duration of pandemic depending on __R0__
 
-__python3 pmutation.py__ returns dusation and total number of infected dependong on __R0__
+___python3 pmutation.py___ returns dusation and total number of infected dependong on __R0__
 
 ## Parameters
 
