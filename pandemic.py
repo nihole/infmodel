@@ -4,7 +4,7 @@ from cfractions import Fraction
 N = 7500000000
 
 # Ratio of vaccinated from all people
-sigma = 0.95
+sigma = 0
 
 # Start of pandemic - number of infected people in the beginning of the pandemic
 n0 = 10000
