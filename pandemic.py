@@ -19,7 +19,6 @@ iwin = 24
 maxc = 2400
 
 def pandemic(R0):
-  R0 = Fraction(R0)
   n = [n0, int(R0 * n0)]
   # The number of people who retained natural immunity after an illness
   S = n0
